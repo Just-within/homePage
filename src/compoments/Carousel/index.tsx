@@ -26,7 +26,7 @@ const infoStyle: React.CSSProperties = {
 
 export default function CustomizeCarousel() {
     return (
-        <Carousel style={{ position: 'relative' }}>
+        <Carousel autoplay style={{ position: 'relative' }}>
             <div>
                 <ItemContainer>
                     <div>

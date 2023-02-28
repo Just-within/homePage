@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Navbar from '@/compoments/Navbar';
 import CustomizeCarousel from '@/compoments/Carousel';
+import { Card } from 'antd';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,13 +23,55 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <div className="aligncenter"><h1 className="aligncenter">Our Featured Courses</h1><span className="clear spacer_responsive_hide_mobile " style={{ height: 13, display: 'block' }}></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.</div>
+                <div className="aligncenter">
+                  <h1 className="aligncenter">Our Featured Courses</h1>
+                  <span className="clear spacer_responsive_hide_mobile " style={{ height: 13, display: 'block' }}></span>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.
+                </div>
               </div>
             </div>
           </div>
         </section>
         <section id="content">
-          <div className="container">
+          <div className="container" style={{ display: 'flex', justifyContent: 'center' }}>
+            <Card
+              hoverable
+              style={{ width: 240 }}
+              cover={
+                <i className="fa fa-trophy" style={{ fontSize: 60, textAlign: 'center', background: '#ed5441', color: '#fff', padding: '30px 0px', borderRadius: '8px 8px 0 0' }}></i>
+              }
+            >
+              <Card.Meta title="Web Development" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240, marginLeft: 16 }}
+              cover={
+                <i className="fa fa-picture-o" style={{ fontSize: 60, textAlign: 'center', background: '#D867B2', color: '#fff', padding: '30px 0px', borderRadius: '8px 8px 0 0' }}></i>
+              }
+            >
+              <Card.Meta title="UI Design" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240, marginLeft: 16 }}
+              cover={
+                <i className="fa fa-desktop" style={{ fontSize: 60, textAlign: 'center', background: '#4BC567', color: '#fff', padding: '30px 0px', borderRadius: '8px 8px 0 0' }}></i>
+              }
+            >
+              <Card.Meta title="Interaction" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident" />
+            </Card>
+            <Card
+              hoverable
+              style={{ width: 240, marginLeft: 16 }}
+              cover={
+                <i className="fa fa-globe" style={{ fontSize: 60, textAlign: 'center', background: '#26AFF0', color: '#fff', padding: '30px 0px', borderRadius: '8px 8px 0 0' }}></i>
+              }
+            >
+              <Card.Meta title="User Experiance" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident" />
+            </Card>
+          </div>
+          {/* <div className="container">
             <div className="row">
               <div className="skill-home"> <div className="skill-home-solid clearfix">
                 <div className="col-md-3 text-center">
@@ -49,7 +92,7 @@ export default function Home() {
                   </div></div>
               </div></div>
             </div>
-          </div>
+          </div> */}
         </section>
         <div className="testimonial-area">
           <div className="testimonial-solid">

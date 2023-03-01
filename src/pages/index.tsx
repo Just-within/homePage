@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import Navbar from '@/compoments/Navbar';
+import Navbar2 from '@/compoments/Navbar2';
 import CustomizeCarousel from '@/compoments/Carousel';
-import { Card } from 'antd';
+import WhyBar from '@/compoments/WhyBar';
+import Cards from '@/compoments/Cards';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,85 +16,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div id="wrapper">
-        <Navbar />
-        <section id="featured">
+        <Navbar2 />
+        <section id="top" style={{ backgroundColor: '#333' }}>
           <CustomizeCarousel />
+          <WhyBar />
         </section>
-        <section className="callaction">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="aligncenter">
-                  <h1 className="aligncenter">Our Featured Courses</h1>
-                  <span className="clear spacer_responsive_hide_mobile " style={{ height: 13, display: 'block' }}></span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="content">
-          <div className="container" style={{ display: 'flex', justifyContent: 'center' }}>
-            <Card
-              hoverable
-              style={{ width: 240 }}
-              cover={
-                <i className="fa fa-trophy" style={{ fontSize: 60, textAlign: 'center', background: '#ed5441', color: '#fff', padding: '30px 0px', borderRadius: '8px 8px 0 0' }}></i>
-              }
-            >
-              <Card.Meta title="Web Development" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident" />
-            </Card>
-            <Card
-              hoverable
-              style={{ width: 240, marginLeft: 16 }}
-              cover={
-                <i className="fa fa-picture-o" style={{ fontSize: 60, textAlign: 'center', background: '#D867B2', color: '#fff', padding: '30px 0px', borderRadius: '8px 8px 0 0' }}></i>
-              }
-            >
-              <Card.Meta title="UI Design" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident" />
-            </Card>
-            <Card
-              hoverable
-              style={{ width: 240, marginLeft: 16 }}
-              cover={
-                <i className="fa fa-desktop" style={{ fontSize: 60, textAlign: 'center', background: '#4BC567', color: '#fff', padding: '30px 0px', borderRadius: '8px 8px 0 0' }}></i>
-              }
-            >
-              <Card.Meta title="Interaction" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident" />
-            </Card>
-            <Card
-              hoverable
-              style={{ width: 240, marginLeft: 16 }}
-              cover={
-                <i className="fa fa-globe" style={{ fontSize: 60, textAlign: 'center', background: '#26AFF0', color: '#fff', padding: '30px 0px', borderRadius: '8px 8px 0 0' }}></i>
-              }
-            >
-              <Card.Meta title="User Experiance" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident" />
-            </Card>
-          </div>
-          {/* <div className="container">
-            <div className="row">
-              <div className="skill-home"> <div className="skill-home-solid clearfix">
-                <div className="col-md-3 text-center">
-                  <span className="icons c1"><i className="fa fa-trophy"></i></span> <div className="box-area">
-                    <h3>Web Development</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
-                </div>
-                <div className="col-md-3 text-center">
-                  <span className="icons c2"><i className="fa fa-picture-o"></i></span> <div className="box-area">
-                    <h3>UI Design</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
-                </div>
-                <div className="col-md-3 text-center">
-                  <span className="icons c3"><i className="fa fa-desktop"></i></span> <div className="box-area">
-                    <h3>Interaction</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p></div>
-                </div>
-                <div className="col-md-3 text-center">
-                  <span className="icons c4"><i className="fa fa-globe"></i></span> <div className="box-area">
-                    <h3>User Experiance</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident</p>
-                  </div></div>
-              </div></div>
-            </div>
-          </div> */}
-        </section>
+        <Cards />
         <div className="testimonial-area">
           <div className="testimonial-solid">
             <div className="container">

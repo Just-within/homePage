@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Button } from '../common.style';
 
 const Cotainer = styled.div`
     padding: 25px 0 30px 0;
@@ -9,17 +10,6 @@ const Cotainer = styled.div`
 const ButtonContainer = styled.div`
     display: flex;
     align-items: center;
-    
-`;
-
-const Button = styled.a`
-    background-color: #FFDF00;
-    color: #000;
-    font-size: 20px;
-    font-weight: 400;
-    & i {
-        margin-right: 10px;
-    }
 `;
 
 export default function WhyBar() {

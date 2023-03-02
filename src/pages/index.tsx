@@ -4,6 +4,7 @@ import Navbar2 from '@/compoments/Navbar2';
 import CustomizeCarousel from '@/compoments/Carousel';
 import WhyBar from '@/compoments/WhyBar';
 import Cards from '@/compoments/Cards';
+import AboutUs from '@/compoments/AboutUs';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,59 +23,7 @@ export default function Home() {
           <WhyBar />
         </section>
         <Cards />
-        <div className="testimonial-area">
-          <div className="testimonial-solid">
-            <div className="container">
-              <div className="testi-icon-area">
-                <div className="quote">
-                  <i className="fa fa-microphone"></i>
-                </div>
-              </div>
-              <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
-                <ol className="carousel-indicators">
-                  <li data-target="#carousel-example-generic" data-slide-to="0" className="">
-                    <a href="#"></a>
-                  </li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1" className="">
-                    <a href="#"></a>
-                  </li>
-                  <li data-target="#carousel-example-generic" data-slide-to="2" className="active">
-                    <a href="#"></a>
-                  </li>
-                  <li data-target="#carousel-example-generic" data-slide-to="3" className="">
-                    <a href="#"></a>
-                  </li>
-                </ol>
-                <div className="carousel-inner">
-                  <div className="item">
-                    <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                    <p>
-                      <b>- Mark John -</b>
-                    </p>
-                  </div>
-                  <div className="item">
-                    <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                    <p>
-                      <b>- Jaison Warner -</b>
-                    </p>
-                  </div>
-                  <div className="item active">
-                    <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                    <p>
-                      <b>- Tony Antonio -</b>
-                    </p>
-                  </div>
-                  <div className="item">
-                    <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                    <p>
-                      <b>- Leena Doe -</b>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <AboutUs />
         <section className="courses">
           <div className="container">
 

@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import { Card } from 'antd';
 
+const OuterContainer = styled.section`
+    margin-top: 20px;
+`;
+
 const Container = styled.div`
     display: flex;
     justify-content: center;
@@ -43,7 +47,7 @@ const StyledCardMeta = styled(Card.Meta)`
 
 export default function Cards() {
     return (
-        <section id="content">
+        <OuterContainer id="content">
             <Container className="container">
                 <StyledCard
                     hoverable
@@ -75,6 +79,6 @@ export default function Cards() {
                     <StyledCardMeta title="Latest News" description="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue." />
                 </StyledCard>
             </Container>
-        </section>
+        </OuterContainer>
     );
 }

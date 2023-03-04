@@ -8,6 +8,7 @@ import AboutUs from '@/compoments/AboutUs';
 import Events from '@/compoments/Event';
 import Fee from '@/compoments/Fee';
 import Managerment from '@/compoments/Managerment';
+import Footer from '@/compoments/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,6 +19,7 @@ export default function Home() {
         <title>Peaceful Meditation Group</title>
         <meta name="Peaceful Meditation Group" content="Peaceful Meditation Group" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></link>
       </Head>
       <div id="wrapper">
         <Navbar2 />
@@ -30,6 +32,7 @@ export default function Home() {
         <Events />
         <Fee />
         <Managerment />
+        <Footer />
       </div>
     </>
   )

@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 const HeaderContainer = styled.div`
     margin: 30px 0;
-    color: black;
+    & > h2, & > p {
+        color: black;
+    }
 `;
 
 const Item = styled.div`

@@ -2,14 +2,14 @@ import { Image } from 'antd';
 import { useState } from 'react';
 
 const ImageUrlList = [
-    '/img/work/1.jpg',
-    '/img/work/2.jpg',
-    '/img/work/3.jpg',
-    '/img/work/4.jpg',
-    '/img/work/5.jpg',
-    '/img/work/6.jpg',
-    '/img/work/7.jpg',
-    '/img/work/8.jpg',
+    'img/work/1.jpg',
+    'img/work/2.jpg',
+    'img/work/3.jpg',
+    'img/work/4.jpg',
+    'img/work/5.jpg',
+    'img/work/6.jpg',
+    'img/work/7.jpg',
+    'img/work/8.jpg',
 ];
 
 const StyleMap: React.CSSProperties[] = [

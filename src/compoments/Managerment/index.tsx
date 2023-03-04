@@ -11,7 +11,7 @@ export default function Managerment() {
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
                                 <div className="member-img">
-                                    <img className="img-responsive" src="/img/photo-1.jpg" alt="" />
+                                    <img className="img-responsive" src="img/photo-1.jpg" alt="" />
                                 </div>
                                 <div className="team-title">
                                     <h4>John Doe</h4>
@@ -25,7 +25,7 @@ export default function Managerment() {
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
                                 <div className="member-img">
-                                    <img className="img-responsive" src="/img/photo-2.jpg" alt="" />
+                                    <img className="img-responsive" src="img/photo-2.jpg" alt="" />
                                 </div>
                                 <h4>Larry Doe</h4>
                                 <span className="pos">Director</span>
@@ -37,7 +37,7 @@ export default function Managerment() {
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
                                 <div className="member-img">
-                                    <img className="img-responsive" src="/img/photo-3.jpg" alt="" />
+                                    <img className="img-responsive" src="img/photo-3.jpg" alt="" />
                                 </div>
                                 <h4>Ranith Kays</h4>
                                 <span className="pos">HOD</span>
@@ -49,7 +49,7 @@ export default function Managerment() {
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
                                 <div className="member-img">
-                                    <img className="img-responsive" src="/img/photo-4.jpg" alt="" />
+                                    <img className="img-responsive" src="img/photo-4.jpg" alt="" />
                                 </div>
                                 <h4>Joan Ray</h4>
                                 <span className="pos">Finance</span>

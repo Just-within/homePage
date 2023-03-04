@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const HeaderContainer = styled.div`
     margin: 30px 0;
+    color: black;
 `;
 
 const Item = styled.div`
@@ -17,7 +18,7 @@ const Item = styled.div`
 
 export default function Fee() {
     return (
-        <section id="plans" className="page-section">
+        <section id="plans" className="page-section" style={{ backgroundColor: 'white' }}>
             <div className="container">
                 <HeaderContainer className="heading text-center">
                     <h2>Fees</h2>

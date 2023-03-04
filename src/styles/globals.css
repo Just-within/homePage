@@ -188,3 +188,98 @@ a {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+/* Fee */
+.page-section {
+  width: 100%;
+  height: auto;
+  padding: 45px 0 30px;
+}
+
+.noPadd {
+  padding: 0;
+}
+
+.page-section h1 {
+  font-size: 3.5em;
+  margin: 90px 0 30px;
+  line-height: 1.2em;
+}
+
+.page-section h1 span {
+  font-weight: 200;
+}
+
+.page-section p {
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+/*Price table*/
+.flat .plan {
+  border-radius: 0px;
+  list-style: none;
+  padding: 0 0 20px;
+  margin: 0 0 15px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.29) !important;
+}
+
+.flat .plan li {
+  padding: 10px 15px;
+  color: #ccc;
+  border-top: 1px solid #f5f5f5;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.flat .plan li.plan-price {
+  border-top: 0;
+}
+
+.flat .plan li.plan-name {
+  border-radius: 0;
+  padding: 15px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  background: #4E4E4E;
+  margin-bottom: 30px;
+  border-top: 0;
+}
+
+.flat .plan li>strong {
+  color: #6B6B6B;
+  font-weight: normal;
+}
+
+.flat .plan li.plan-action {
+  margin-top: 10px;
+  border-top: 0;
+}
+
+.flat .plan.featured:hover li.plan-name,
+.flat .plan:hover li.plan-name,
+.flat .plan.featured.plan-name {
+  background: #FFDF00 !important;
+}
+
+.customNavigation {
+  display: none;
+}
+
+#clients .heading {
+  margin: 0px;
+}
+
+.isotope-item {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.isotopeWrapper article {
+  margin: 0px;
+}

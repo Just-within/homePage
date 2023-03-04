@@ -296,30 +296,6 @@ a {
   position: relative;
 }
 
-.member-img:before {
-  content: "";
-  width: 80px;
-  height: 80px;
-  background: yellow;
-  float: right;
-  position: absolute;
-  z-index: -1;
-  top: -5px;
-  right: 2px;
-}
-
-.member-img:after {
-  content: "";
-  width: 80px;
-  height: 80px;
-  background: yellow;
-  float: right;
-  position: absolute;
-  z-index: -1;
-  bottom: -5px;
-  left: 2px;
-}
-
 .team-member .member-img img {
   max-width: 250px;
   margin: 0 auto;

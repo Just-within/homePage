@@ -8,7 +8,6 @@ const OuterContainer = styled.section`
 const Container = styled.div`
     display: flex;
     justify-content: center;
-    padding: 20px 0;
 `;
 
 const Icon = styled.i`
@@ -16,7 +15,15 @@ const Icon = styled.i`
     padding: 30px 0 20px 0;
 `;
 
+const CardContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
 const StyledCard = styled(Card)`
+    margin-bottom: 20px;
+    width: 240px;
+    border-radius: 0;
     &:before {
         content: "";
         width: 60px;
@@ -49,35 +56,40 @@ export default function Cards() {
     return (
         <OuterContainer id="content">
             <Container className="container">
-                <StyledCard
-                    hoverable
-                    style={{ width: 240, borderRadius: 0 }}
-                    cover={<Icon><img src="img/5.png" alt="" /></Icon>}
-                >
-                    <StyledCardMeta title="Courses" description="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue." />
-                </StyledCard>
-
-                <StyledCard
-                    hoverable
-                    style={{ width: 240, borderRadius: 0, marginLeft: 16 }}
-                    cover={<Icon><img src="img/1.png" alt="" /></Icon>}
-                >
-                    <StyledCardMeta title="Knowledge" description="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue." />
-                </StyledCard>
-                <StyledCard
-                    hoverable
-                    style={{ width: 240, borderRadius: 0, marginLeft: 16 }}
-                    cover={<Icon><img src="img/2.png" alt="" /></Icon>}
-                >
-                    <StyledCardMeta title="Events" description="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue." />
-                </StyledCard>
-                <StyledCard
-                    hoverable
-                    style={{ width: 240, borderRadius: 0, marginLeft: 16 }}
-                    cover={<Icon><img src="img/3.png" alt="" /></Icon>}
-                >
-                    <StyledCardMeta title="Latest News" description="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue." />
-                </StyledCard>
+                <div className='row'>
+                    <CardContainer className='col-xs-12 col-sm-6 col-lg-3'>
+                        <StyledCard
+                            hoverable
+                            cover={<Icon><img src="img/5.png" alt="" /></Icon>}
+                        >
+                            <StyledCardMeta title="Courses" description="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue." />
+                        </StyledCard>
+                    </CardContainer>
+                    <CardContainer className='col-xs-12 col-sm-6 col-lg-3'>
+                        <StyledCard
+                            hoverable
+                            cover={<Icon><img src="img/1.png" alt="" /></Icon>}
+                        >
+                            <StyledCardMeta title="Knowledge" description="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue." />
+                        </StyledCard>
+                    </CardContainer>
+                    <CardContainer className='col-xs-12 col-sm-6 col-lg-3'>
+                        <StyledCard
+                            hoverable
+                            cover={<Icon><img src="img/2.png" alt="" /></Icon>}
+                        >
+                            <StyledCardMeta title="Events" description="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue." />
+                        </StyledCard>
+                    </CardContainer>
+                    <CardContainer className='col-xs-12 col-sm-6 col-lg-3'>
+                        <StyledCard
+                            hoverable
+                            cover={<Icon><img src="img/3.png" alt="" /></Icon>}
+                        >
+                            <StyledCardMeta title="Latest News" description="Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet congue." />
+                        </StyledCard>
+                    </CardContainer>
+                </div>
             </Container>
         </OuterContainer>
     );

@@ -7,6 +7,7 @@ import Cards from '@/compoments/Cards';
 import AboutUs from '@/compoments/AboutUs';
 import Events from '@/compoments/Event';
 import Fee from '@/compoments/Fee';
+import Managerment from '@/compoments/Managerment';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -28,6 +29,7 @@ export default function Home() {
         <AboutUs />
         <Events />
         <Fee />
+        <Managerment />
       </div>
     </>
   )

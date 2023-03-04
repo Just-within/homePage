@@ -10,6 +10,7 @@ const Item = styled.div`
             -webkit-transform: scale(1.1);
             -ms-transform: scale(1.1);
             transform: scale(1.1);
+            transition: all 0.25s ease;
         }
     }
 `;

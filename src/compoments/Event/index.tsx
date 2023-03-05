@@ -36,7 +36,7 @@ export default function Events() {
                             </ul>
                             <div className='row'>
                                 {ImageUrlList.filter((i, index) => !state || (index % state === 0)).map(((i) => (
-                                    <Image src={i} width={240} />
+                                    <Image key={i} src={i} width={240} />
                                 )))}
                             </div>
                         </div>

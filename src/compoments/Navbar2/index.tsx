@@ -4,8 +4,18 @@ export default function Navbar2() {
             <div className="container">
                 <nav className="navbar navbar-inverse" role="navigation">
                     <div className="navbar-header">
-                        <button type="button" id="nav-toggle" className="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span></button>
-                        <a href="#" className="navbar-brand scroll-top logo  animated bounceInLeft"><b><i><img src="img/logo.png" /></i></b></a> </div>
+                        <button type="button" id="nav-toggle" className="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                            <span className="sr-only">Toggle navigation</span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                        </button>
+                        <a href="/" className="navbar-brand scroll-top logo  animated bounceInLeft">
+                            <b>
+                                Justwithin
+                            </b>
+                        </a>
+                    </div>
                     <div id="main-nav" className="collapse navbar-collapse">
                         <ul className="nav navbar-nav" id="mainNav">
                             <li className="active" id="firstLink"><a href="#home" className="scroll-link">Home</a></li>

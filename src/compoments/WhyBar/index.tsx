@@ -3,8 +3,6 @@ import { Button } from '../common.style';
 
 const Cotainer = styled.div`
     padding: 25px 0 30px 0;
-    display: flex;
-    align-items: center;
 `;
 
 const CustomizeRow = styled.div`
@@ -12,6 +10,7 @@ const CustomizeRow = styled.div`
 `;
 
 const ButtonContainer = styled.div`
+    margin-top: 20px;
     display: flex;
     align-items: center;
 `;
@@ -21,14 +20,14 @@ export default function WhyBar() {
         <Cotainer className='container'>
             <CustomizeRow className='row'>
                 <div className="col-md-9 col-xs-12">
-                    <h2>Why B-School?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum orci eget nulla mattis, quis viverra
-                        tellus porta. Donec vitae neque ut velit eleifend commodo. Maecenas turpis odio, placerat eu lorem ut,
-                        suscipit commodo augue. </p>
+                    <h2>Introduction to Group</h2>
+                    <p>Journey within to realize everything you ever wanted is just within.</p>
                 </div>
-                <ButtonContainer className="col-md-3 col-xs-12">
-                    <Button className="btn btn-apply" href="#"><i className="fa fa-play-circle"></i>Apply Now</Button>
-                </ButtonContainer>
+                <div className="col-md-3 col-xs-12">
+                    <ButtonContainer >
+                        <Button className="btn btn-apply" href="/">Contact Us</Button>
+                    </ButtonContainer>
+                </div>
             </CustomizeRow>
         </Cotainer>
     );

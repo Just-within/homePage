@@ -33,7 +33,7 @@ const Container = styled.section`
                 margin-top: -13px;
                 font-weight: 700;
                 border-radius: 100%;
-                color: #fff;
+                color: black;
                 width: 26px;
                 height: 26px;
                 background-color:#FEDE00;
@@ -62,29 +62,24 @@ export default function AboutUs() {
         <section id="aboutUs">
             <Container className="container">
                 <Header>
-                    <h2>About Us</h2>
-                    <p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+                    <h2>Goal of Group</h2>
+                    <p>To make Chan meditation accessible to the international community. Transcend you life.</p>
                 </Header>
                 <OurQuality className="row feature design">
                     <div className="col-md-8">
-                        <UpperCase>Our Design tells about quality</UpperCase>
-                        <p>Lorem ipsum dolor sit amet, ea eum labitur scsstie percipitoleat fabulas complectitur deterruisset at pro.
-                            Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie
-                            percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci
-                            iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-                            Nec et jority have suffered alteration. </p>
-                        <p>Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie
-                            percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci
-                            iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-                            Nec et amet vidisse mentitumsstie percipitoleat fabulas. </p>
-                        <Button href="#" className="btn">Request Quote</Button>
+                        <UpperCase>Find inner peace</UpperCase>
+                        <p>Welcome to our meditation group, a community that has been founded on the principles of mindfulness, compassion, and inner peace. What began as a small local group has now grown to a national level and is starting to expand internationally. We are committed to providing a supportive space for people from all walks of life to come together and practice meditation, regardless of their level of experience.</p>
+                        <p>Our group is dedicated to promoting the benefits of meditation, including stress reduction, improved mental clarity, and emotional stability. Through regular meditation practice, we believe that individuals can develop greater self-awareness and cultivate a sense of inner peace that can positively impact all aspects of their lives.</p>
+                        <p>As our community continues to grow, we are excited to welcome new members from all around the world. We believe that by sharing our practice and building connections across borders, we can contribute to a more peaceful and compassionate world.</p>
+                        <p>Whether you are new to meditation or a seasoned practitioner, we invite you to join us and become a part of our growing community. Together, we can support each other on our journey towards greater self-discovery, inner peace, and wellbeing.</p>
+                        {/* <Button href="#" className="btn">Contact Us</Button> */}
                     </div>
                     <div style={{ top: 28 }} className="col-md-4">
                         <img src="img/about-img.jpg" alt="" width="100%" />
                     </div>
                 </OurQuality>
                 <div className="row dataTxt">
-                    <div className="col-md-4 col-sm-6">
+                    {/* <div className="col-md-4 col-sm-6">
                         <UpperCase>Our Education</UpperCase>
                         <p>Lorem ipsum dolor consectetursit amet, consectetur adipiscing elit consectetur euismod </p>
                         <p>Lorem ipsum dolor sit amet, ea eum labitur scsstie percipitoleat fabulas complectitur deterruisset at pro.
@@ -103,17 +98,45 @@ export default function AboutUs() {
                             <li>Lorem ipsum dolor consectetursit amet, consectetur</li>
                             <li>Ius ut etiam vivendo, graeci iudicabit constitutoa</li>
                         </ul>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                        <UpperCase>Latest News</UpperCase>
-                        <p>Lorem ipsum dolor consectetursit amet, consectetur adipiscing elit consectetur euismod </p>
-                        <ul className="list3">
-                            <li>Lorem ipsum dolor consectetursit</li>
-                            <li>Has molestie percipit an Falli</li>
-                            <li>Falli volumus efficiantur sed id</li>
-                            <li>Lorem ipsum dolor consectetu</li>
+                    </div> */}
+                    <UpperCase style={{ marginLeft: 30 }}>Programs</UpperCase>
+                    <div className="col-md-6 col-sm-6">
+                        <ul className="listArrow">
+                            <li>Experience Chan meditation</li>
+                            <li>8 week session</li>
+                            <li>Weekly online Q&A</li>
+                            <li>Topic discussions</li>
+                            {/* <li>Weekly Practice Sittings</li>
+                            <li>Sutra Study</li>
+                            <li>History of Chan Linage</li>
+                            <li>One to One Discussion, on reservation</li> */}
                         </ul>
                     </div>
+                    <div className="col-md-6 col-sm-6">
+                        <ul className="listArrow">
+                            {/* <li>Experience Chan meditation</li>
+                            <li>8 week session</li>
+                            <li>Weekly online Q&A</li>
+                            <li>Topic discussions</li> */}
+                            <li>Weekly Practice Sittings</li>
+                            <li>Sutra Study</li>
+                            <li>History of Chan Linage</li>
+                            <li>One to One Discussion, on reservation</li>
+                        </ul>
+                    </div>
+                    {/* <div className="col-md-6 col-sm-6">
+                        <UpperCase></UpperCase>
+                        <ul className="list3" style={{ marginTop: 20 }}>
+                            <li>Experience Chan meditation</li>
+                            <li>8 week session</li>
+                            <li>Weekly online Q&A</li>
+                            <li>Topic discussions</li>
+                            <li>Weekly Practice Sittings</li>
+                            <li>Sutra Study</li>
+                            <li>History of Chan Linage</li>
+                            <li>One to One Discussion, on reservation</li>
+                        </ul>
+                    </div> */}
                 </div>
             </Container>
         </section>

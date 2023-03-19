@@ -75,7 +75,7 @@ export default function AboutUs() {
                         {/* <Button href="#" className="btn">Contact Us</Button> */}
                     </div>
                     <div style={{ top: 28 }} className="col-md-4">
-                        <img src="img/about-img.jpg" alt="" width="100%" />
+                        <img src="img/about-img-1.jpg" alt="" width="100%" />
                     </div>
                 </OurQuality>
                 <div className="row dataTxt">

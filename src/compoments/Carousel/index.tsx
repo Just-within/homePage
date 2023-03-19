@@ -26,20 +26,20 @@ export default function CustomizeCarousel() {
             <div>
                 <ItemContainer>
                     <div>
-                        <StyledImg src="img/banner-bg.jpg" alt="" />
+                        <StyledImg src="img/banner-bg4.jpg" alt="" />
                         <Text>Journey within to realize everything you ever wanted is just within.</Text>
                     </div>
                 </ItemContainer>
             </div>
             <div>
                 <ItemContainer>
-                    <StyledImg src="img/banner-bg2.jpg" alt="" />
+                    <StyledImg src="img/banner-bg5.jpg" alt="" />
                     <Text>Journey within to realize everything you ever wanted is just within.</Text>
                 </ItemContainer>
             </div>
             <div>
                 <ItemContainer>
-                    <StyledImg src="img/banner-bg4.jpg" alt="" />
+                    <StyledImg src="img/banner-bg6.jpg" alt="" />
                     <Text>Journey within to realize everything you ever wanted is just within.</Text>
                 </ItemContainer>
             </div>

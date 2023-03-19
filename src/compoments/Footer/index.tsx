@@ -61,7 +61,7 @@ export default function Footer() {
             <section className="copyright">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 text-center"> Peaceful Meditation Group </div>
+                        <div className="col-sm-12 text-center"> Justwithin </div>
                     </div>
                 </div>
             </section>

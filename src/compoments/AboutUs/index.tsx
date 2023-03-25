@@ -63,16 +63,14 @@ export default function AboutUs() {
             <Container className="container">
                 <Header>
                     <h2>Goal of Group</h2>
-                    <p>To make Chan meditation accessible to the international community. Transcend you life.</p>
+                    <p>To make Chan meditation accessible to the international community and transcend your life.</p>
                 </Header>
                 <OurQuality className="row feature design">
                     <div className="col-md-8">
                         <UpperCase>Find inner peace</UpperCase>
-                        <p>Welcome to our meditation group, a community that has been founded on the principles of mindfulness, compassion, and inner peace. What began as a small local group has now grown to a national level and is starting to expand internationally. We are committed to providing a supportive space for people from all walks of life to come together and practice meditation, regardless of their level of experience.</p>
-                        <p>Our group is dedicated to promoting the benefits of meditation, including stress reduction, improved mental clarity, and emotional stability. Through regular meditation practice, we believe that individuals can develop greater self-awareness and cultivate a sense of inner peace that can positively impact all aspects of their lives.</p>
-                        <p>As our community continues to grow, we are excited to welcome new members from all around the world. We believe that by sharing our practice and building connections across borders, we can contribute to a more peaceful and compassionate world.</p>
-                        <p>Whether you are new to meditation or a seasoned practitioner, we invite you to join us and become a part of our growing community. Together, we can support each other on our journey towards greater self-discovery, inner peace, and wellbeing.</p>
-                        {/* <Button href="#" className="btn">Contact Us</Button> */}
+                        <p>The goal of our meditation group is to make this transformative practice accessible to people around the world. We start by offering Chan meditation instruction and guidance online, andaim to help individuals deepen their understanding of their own minds, bodies spirit, and ultimately transcend their lives.</p>
+                        <p>Through regular practice, participants can cultivate a greater sense of self-awareness, improve their ability to concentrate and focus, develop a deeper sense of inner peace and well-being, and in deep meditation be able to witness their true self. Our program is designed to help individuals start their journry just within through learning the Chan practice and integrate them into their daily lives, leading to greater fulfillment and happiness.</p>
+                        <p>We believe that Chan meditation can be a powerful tool for personal growth and spiritual development, and we are committed to making this practice accessible to as many people as possible. Whether you are new to meditation or an experienced practitioner, our program offers a supportive community and expert guidance to help you on your journey of self-discovery and transformation. Join us today and start your journey towards a more peaceful and fulfilling life.</p>
                     </div>
                     <div style={{ top: 28 }} className="col-md-4">
                         <img src="img/about-img-1.jpg" alt="" width="100%" />

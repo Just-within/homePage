@@ -11,7 +11,7 @@ export default function Managerment() {
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
                                 <div className="member-img">
-                                    <img className="img-responsive" src="img/photo-1.jpg" alt="" />
+                                    <img className="img-responsive" src="img/Maggie.png" alt="" />
                                 </div>
                                 <div className="team-title">
                                     <h4>Maggie</h4>
@@ -49,7 +49,7 @@ export default function Managerment() {
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
                                 <div className="member-img">
-                                    <img className="img-responsive" src="img/photo-4.jpg" alt="" />
+                                    <img className="img-responsive" src="img/Winnie.png" alt="" />
                                 </div>
                                 <h4>Winnie</h4>
                                 {/* <span className="pos">Finance</span> */}

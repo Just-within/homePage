@@ -13,10 +13,19 @@ const IframeContainer = styled.div`
 const StyledIframe = styled.iframe`
     min-width: 100%;
     max-width: 100%;
-    height: 833px;
+    height: 1122px;
     border: none;
-    @media screen and (min-width: 500px) {
-        height: 833px;
+    @media screen and (min-width: 565px) {
+        height: 1140px;
+    }
+    @media screen and (min-width: 510px) and (max-width: 565px) {
+        height: 1140px;
+    }
+    @media screen and (min-width: 383px) and (max-width: 509px) {
+        height: 1211px;
+    }
+    @media screen and (max-width: 382px) {
+        height: 1230px;
     }
 `;
 

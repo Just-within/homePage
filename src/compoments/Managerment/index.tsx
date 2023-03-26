@@ -17,9 +17,9 @@ export default function Managerment() {
                                     <h4>Maggie</h4>
                                     {/* <span className="pos">DEAN</span> */}
                                 </div>
-                                <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
+                                {/* <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
                                     className="fa fa-google-plus"></i></a> <a href="#"><i className="fa fa-twitter"></i></a> <a href="#"><i
-                                        className="fa fa-dribbble"></i></a> <a href="#"><i className="fa fa-github"></i></a> </div>
+                                        className="fa fa-dribbble"></i></a> <a href="#"><i className="fa fa-github"></i></a> </div> */}
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12">
@@ -29,21 +29,21 @@ export default function Managerment() {
                                 </div>
                                 <h4>Pegagus</h4>
                                 {/* <span className="pos">Director</span> */}
-                                <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
+                                {/* <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
                                     className="fa fa-google-plus"></i></a> <a href="#"><i className="fa fa-twitter"></i></a> <a href="#"><i
-                                        className="fa fa-dribbble"></i></a> <a href="#"><i className="fa fa-github"></i></a> </div>
+                                        className="fa fa-dribbble"></i></a> <a href="#"><i className="fa fa-github"></i></a> </div> */}
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
                                 <div className="member-img">
-                                    <img className="img-responsive" src="img/photo-3.jpg" alt="" />
+                                    <img className="img-responsive" src="img/Odina.jpg" alt="" />
                                 </div>
-                                <h4>Victoria</h4>
+                                <h4>Odina</h4>
                                 {/* <span className="pos">HOD</span> */}
-                                <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
+                                {/* <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
                                     className="fa fa-google-plus"></i></a> <a href="#"><i className="fa fa-twitter"></i></a> <a href="#"><i
-                                        className="fa fa-dribbble"></i></a> <a href="#"><i className="fa fa-github"></i></a> </div>
+                                        className="fa fa-dribbble"></i></a> <a href="#"><i className="fa fa-github"></i></a> </div> */}
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12">
@@ -53,9 +53,9 @@ export default function Managerment() {
                                 </div>
                                 <h4>Winnie</h4>
                                 {/* <span className="pos">Finance</span> */}
-                                <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
+                                {/* <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
                                     className="fa fa-google-plus"></i></a> <a href="#"><i className="fa fa-twitter"></i></a> <a href="#"><i
-                                        className="fa fa-dribbble"></i></a> <a href="#"><i className="fa fa-github"></i></a> </div>
+                                        className="fa fa-dribbble"></i></a> <a href="#"><i className="fa fa-github"></i></a> </div> */}
                             </div>
                         </div>
                     </div>

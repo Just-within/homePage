@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const Container = styled.section`
-    margin: 20px 0;
+const Container = styled.div`
+    margin: 20px auto;
     & p, & li {
         color: #a6a6a6;
     }
@@ -60,11 +60,11 @@ export default function AboutUs() {
     return (
         <section id="aboutUs">
             <Container className="container">
-                <Header>
+                <Header className='text-center'>
                     <h2>Goal of Group</h2>
                     <p>To make Chan meditation accessible to the international community and transcend your life.</p>
                 </Header>
-                <OurQuality className="row feature design">
+                <OurQuality>
                     <div className="col-md-8">
                         <UpperCase>Find inner peace</UpperCase>
                         <p>The goal of our meditation group is to make this transformative practice accessible to people around the world. We start by offering Chan meditation instruction and guidance online, andaim to help individuals deepen their understanding of their own minds, bodies spirit, and ultimately transcend their lives.</p>
@@ -75,8 +75,8 @@ export default function AboutUs() {
                         <img src="img/about-img-1.jpg" alt="" width="100%" />
                     </div>
                 </OurQuality>
-                <div className="row dataTxt">
-                    {/* <div className="col-md-4 col-sm-6">
+                {/* <div className="row dataTxt"> */}
+                {/* <div className="col-md-4 col-sm-6">
                         <UpperCase>Our Education</UpperCase>
                         <p>Lorem ipsum dolor consectetursit amet, consectetur adipiscing elit consectetur euismod </p>
                         <p>Lorem ipsum dolor sit amet, ea eum labitur scsstie percipitoleat fabulas complectitur deterruisset at pro.
@@ -96,7 +96,7 @@ export default function AboutUs() {
                             <li>Ius ut etiam vivendo, graeci iudicabit constitutoa</li>
                         </ul>
                     </div> */}
-                    {/* <UpperCase style={{ marginLeft: 30 }}>Programs</UpperCase>
+                {/* <UpperCase style={{ marginLeft: 30 }}>Programs</UpperCase>
                     <div className="col-md-6 col-sm-6">
                         <ul className="listArrow">
                             <li>Experience Chan meditation</li>
@@ -113,7 +113,7 @@ export default function AboutUs() {
                             <li>One to One Discussion, on reservation</li>
                         </ul>
                     </div> */}
-                    {/* <div className="col-md-6 col-sm-6">
+                {/* <div className="col-md-6 col-sm-6">
                         <UpperCase></UpperCase>
                         <ul className="list3" style={{ marginTop: 20 }}>
                             <li>Experience Chan meditation</li>
@@ -126,7 +126,7 @@ export default function AboutUs() {
                             <li>One to One Discussion, on reservation</li>
                         </ul>
                     </div> */}
-                </div>
+                {/* </div> */}
             </Container>
         </section>
     );

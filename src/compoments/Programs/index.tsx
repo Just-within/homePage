@@ -28,18 +28,18 @@ export default function Programs() {
                             This program is an fast-paced, in-depth exploration of Chan meditation practice over an 8-week period. Participants will receive guided meditation instruction.
                         </p>
                     </Panel>
-                    <Panel style={{ borderBottom: '1px solid #DCDCDC', margin: '20px 0', paddingBottom: 20 }} showArrow={false} header={<div style={{ color: '#000', fontSize: 16, fontWeight: 500 }}>Weekly Online Q&A</div>} key="Weekly Online Q&A">
+                    <Panel style={{ borderBottom: '1px solid #DCDCDC', margin: '20px 0', paddingBottom: 20 }} showArrow={false} header={<div style={{ color: '#000', fontSize: 16, fontWeight: 500 }}>Weekly Online Q&amp;A</div>} key="Weekly Online Q&A">
                         <p style={{ paddingLeft: 24, color: '#696969' }}>
                             <br />
-                            The Weekly Online Q&A program is an invaluable resource for participants who are seeking guidance and support in their meditation practice. Led by experienced teachers, the program provides a safe and supportive space for participants to ask questions, share their experiences, and receive personalized feedback and guidance.<br />
+                            The Weekly Online Q&amp;A program is an invaluable resource for participants who are seeking guidance and support in their meditation practice. Led by experienced teachers, the program provides a safe and supportive space for participants to ask questions, share their experiences, and receive personalized feedback and guidance.<br />
                             <br />
-                            The program is designed to be flexible and accessible, with Q&A sessions held online each week. This means that participants can join from anywhere in the world and at a time that is convenient for them. Whether you are a beginner or an experienced meditator, the Q&A sessions offer a unique opportunity to deepen your understanding of meditation and to receive personalized support on your journey.<br />
+                            The program is designed to be flexible and accessible, with Q&amp;A sessions held online each week. This means that participants can join from anywhere in the world and at a time that is convenient for them. Whether you are a beginner or an experienced meditator, the Q&amp;A sessions offer a unique opportunity to deepen your understanding of meditation and to receive personalized support on your journey.<br />
                             <br />
-                            During the Q&A sessions, participants will have the opportunity to ask questions about their meditation practice, as well as explore topics related to mindfulness, concentration, and compassion. They will also have the opportunity to connect with other like-minded individuals who share their commitment to meditation and personal growth.<br />
+                            During the Q&amp;A sessions, participants will have the opportunity to ask questions about their meditation practice, as well as explore topics related to mindfulness, concentration, and compassion. They will also have the opportunity to connect with other like-minded individuals who share their commitment to meditation and personal growth.<br />
                             <br />
-                            The teachers leading the Q&A sessions are highly experienced and knowledgeable in the practice of Chan meditation. They will offer practical advice and guidance, as well as share their own insights and experiences to help participants deepen their understanding of meditation and cultivate greater awareness and inner peace.<br />
+                            The teachers leading the Q&amp;A sessions are highly experienced and knowledgeable in the practice of Chan meditation. They will offer practical advice and guidance, as well as share their own insights and experiences to help participants deepen their understanding of meditation and cultivate greater awareness and inner peace.<br />
                             <br />
-                            Overall, the Weekly Online Q&A program is an essential component of any meditation practice, providing ongoing guidance, support, and inspiration to help participants stay on track and achieve their goals.<br />
+                            Overall, the Weekly Online Q&amp;A program is an essential component of any meditation practice, providing ongoing guidance, support, and inspiration to help participants stay on track and achieve their goals.<br />
                         </p>
                     </Panel>
                     <Panel style={{ borderBottom: '1px solid #DCDCDC', margin: '20px 0', paddingBottom: 20 }} showArrow={false} header={<div style={{ color: '#000', fontSize: 16, fontWeight: 500 }}>Topic Discussions</div>} key="Topic Discussions">

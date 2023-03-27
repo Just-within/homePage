@@ -1,8 +1,7 @@
 import styled from 'styled-components';
-import { Button } from '../common.style';
 
 const Container = styled.section`
-    margin-top: 20px;
+    margin: 20px 0;
     & p, & li {
         color: #a6a6a6;
     }
@@ -97,31 +96,23 @@ export default function AboutUs() {
                             <li>Ius ut etiam vivendo, graeci iudicabit constitutoa</li>
                         </ul>
                     </div> */}
-                    <UpperCase style={{ marginLeft: 30 }}>Programs</UpperCase>
+                    {/* <UpperCase style={{ marginLeft: 30 }}>Programs</UpperCase>
                     <div className="col-md-6 col-sm-6">
                         <ul className="listArrow">
                             <li>Experience Chan meditation</li>
                             <li>8 week session</li>
                             <li>Weekly online Q&A</li>
                             <li>Topic discussions</li>
-                            {/* <li>Weekly Practice Sittings</li>
-                            <li>Sutra Study</li>
-                            <li>History of Chan Linage</li>
-                            <li>One to One Discussion, on reservation</li> */}
                         </ul>
                     </div>
                     <div className="col-md-6 col-sm-6">
                         <ul className="listArrow">
-                            {/* <li>Experience Chan meditation</li>
-                            <li>8 week session</li>
-                            <li>Weekly online Q&A</li>
-                            <li>Topic discussions</li> */}
                             <li>Weekly Practice Sittings</li>
                             <li>Sutra Study</li>
                             <li>History of Chan Linage</li>
                             <li>One to One Discussion, on reservation</li>
                         </ul>
-                    </div>
+                    </div> */}
                     {/* <div className="col-md-6 col-sm-6">
                         <UpperCase></UpperCase>
                         <ul className="list3" style={{ marginTop: 20 }}>

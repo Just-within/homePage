@@ -5,7 +5,7 @@ export const Button = styled.a`
     color: #000;
     font-size: 20px;
     font-weight: 400;
-    padding: 15px 46px;
+    padding: 12px 20px;
     & i {
         margin-right: 10px;
     }

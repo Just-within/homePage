@@ -36,7 +36,8 @@ export default function ContractUs() {
                 <IframeContainer>
                     <StyledIframe
                         id="JotFormIFrame-230631047148046"
-                        title="Contract Us" onLoad={() => {
+                        title="Contract Us"
+                        onLoad={() => {
                             window.parent.scrollTo(0, 0)
                         }}
                         allowTransparency

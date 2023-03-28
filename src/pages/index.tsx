@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Script from 'next/script';
 import Navbar2 from '@/compoments/Navbar2';
 import CustomizeCarousel from '@/compoments/Carousel';
-import WhyBar from '@/compoments/WhyBar';
-import Cards from '@/compoments/Cards';
+// import WhyBar from '@/compoments/WhyBar';
+// import Cards from '@/compoments/Cards';
 import AboutUs from '@/compoments/AboutUs';
-import Events from '@/compoments/Event';
-import Fee from '@/compoments/Fee';
+// import Events from '@/compoments/Event';
+// import Fee from '@/compoments/Fee';
 import Programs from '@/compoments/Programs';
 import Managerment from '@/compoments/Managerment';
 import ContractUs from '@/compoments/ContractUs';

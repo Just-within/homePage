@@ -9,8 +9,8 @@ export default function Programs() {
                 <div className="heading text-center">
                     <h2 style={{ color: '#000' }}>Programs</h2>
                 </div>
-                <Collapse ghost size="large" bordered={false} style={{ backgroundColor: '#eee' }} onChange={(e) => console.log(e)}>
-                    <Panel style={{ borderBottom: '1px solid #DCDCDC', margin: '20px 0', paddingBottom: 20 }} showArrow={false} header={<div style={{ color: '#000', fontSize: 16, fontWeight: 500 }}>Experience Chan Meditation</div>} key="Experience Chan Meditation">
+                <Collapse style={{ backgroundColor: '#eee' }}>
+                    <Panel style={{ borderBottom: '1px solid #DCDCDC', padding: '20px 0', paddingBottom: 20 }} showArrow={false} header={<div style={{ color: '#000', fontSize: 16, fontWeight: 500 }}>Experience Chan Meditation</div>} key="Experience Chan Meditation">
                         <p style={{ paddingLeft: 24, color: '#696969' }}>
                             <br />
                             Experience Chan Meditation offers a one-time introduction to Chan Meditation, a practice that originated in India, but was passed to China over a thousand years ago. This program is designed to provide participants with a taste of Chan Meditation and to help them understand some of the basic principles and techniques of this practice.<br />
@@ -22,7 +22,7 @@ export default function Programs() {
                             By the end of the program, participants will have a basic understanding of Chan Meditation. They will also have the opportunity to ask questions and connect with other like-minded individuals who share their interest in meditation and mindfulness.<br />
                         </p>
                     </Panel>
-                    <Panel style={{ borderBottom: '1px solid #DCDCDC', margin: '20px 0', paddingBottom: 20 }} showArrow={false} header={<div style={{ color: '#000', fontSize: 16, fontWeight: 500 }}>8 Week Session</div>} key="8 Week Session">
+                    <Panel style={{ borderBottom: '1px solid #DCDCDC', padding: '20px 0', paddingBottom: 20 }} showArrow={false} header={<div style={{ color: '#000', fontSize: 16, fontWeight: 500 }}>8 Week Session</div>} key="8 Week Session">
                         <p style={{ paddingLeft: 24, color: '#696969' }}>
                             <br />
                             This program is an fast-paced, in-depth exploration of Chan meditation practice over an 8-week period. Participants will receive guided meditation instruction.

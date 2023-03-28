@@ -25,7 +25,6 @@ export default function Managerment() {
                                     <h4>Maggie</h4>
                                     <Button className="btn btn-apply" href="mailto:abc@example.com">Email</Button>
                                 </ButtonContainer>
-
                                 {/* <span className="pos">DEAN</span> */}
                                 {/* </div> */}
                                 {/* <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
@@ -42,7 +41,6 @@ export default function Managerment() {
                                     <h4>Pegasus Chen</h4>
                                     <Button className="btn btn-apply" href="mailto:chanandpega@gmail.com">Email</Button>
                                 </ButtonContainer>
-
                                 {/* <span className="pos">Director</span> */}
                                 {/* <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
                                     className="fa fa-google-plus"></i></a> <a href="#"><i className="fa fa-twitter"></i></a> <a href="#"><i
@@ -58,7 +56,6 @@ export default function Managerment() {
                                     <h4>Odina Wang</h4>
                                     <Button className="btn btn-apply" href="mailto:seawang060@gmail.com">Email</Button>
                                 </ButtonContainer>
-
                                 {/* <span className="pos">HOD</span> */}
                                 {/* <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
                                     className="fa fa-google-plus"></i></a> <a href="#"><i className="fa fa-twitter"></i></a> <a href="#"><i
@@ -69,13 +66,11 @@ export default function Managerment() {
                             <div className="team-member pDark">
                                 <div className="member-img">
                                     <img className="img-responsive" src="img/Winnie.png" alt="" />
-
                                 </div>
                                 <ButtonContainer>
                                     <h4>Winnie</h4>
                                     <Button className="btn btn-apply" href="mailto:chanandpega@gmail.com">Email</Button>
                                 </ButtonContainer>
-
                                 {/* <span className="pos">Finance</span> */}
                                 {/* <div className="team-socials"> <a href="#"><i className="fa fa-facebook"></i></a> <a href="#"><i
                                     className="fa fa-google-plus"></i></a> <a href="#"><i className="fa fa-twitter"></i></a> <a href="#"><i

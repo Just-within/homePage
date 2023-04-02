@@ -21,7 +21,7 @@ export default function Navbar2() {
                             <li className="active" id="firstLink"><a href="#home" className="scroll-link">Home</a></li>
                             <li><a href="#Features" className="scroll-link">Features</a></li>
                             <li><a href="#aboutUs" className="scroll-link">About Us</a></li>
-                            <li><a href="#work" className="scroll-link">Events</a></li>
+                            <li><a href="#work2" className="scroll-link">Events</a></li>
                             <li><a href="#plans" className="scroll-link">Fees</a></li>
                             <li><a href="#team" className="scroll-link">Management</a></li>
                             <li><a href="#contactUs" className="scroll-link">Contact Us</a></li>

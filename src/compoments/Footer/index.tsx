@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <footer>
+            {/* <footer>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3">
@@ -57,7 +57,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer> */}
             <section className="copyright">
                 <div className="container">
                     <div className="row">

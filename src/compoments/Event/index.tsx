@@ -1,4 +1,4 @@
-import { Image } from 'antd';
+// import { Image } from 'antd';
 import { useState } from 'react';
 
 const ImageUrlList = [
@@ -36,7 +36,7 @@ export default function Events() {
                             </ul>
                             <div className='row'>
                                 {ImageUrlList.filter((i, index) => !state || (index % state === 0)).map(((i) => (
-                                    <Image preview={false} key={i} src={i} width={240} />
+                                    <img key={i} src={i} width={240} />
                                 )))}
                             </div>
                         </div>

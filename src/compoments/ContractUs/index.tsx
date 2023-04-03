@@ -40,7 +40,6 @@ export default function ContractUs() {
                         onLoad={() => {
                             window.parent.scrollTo(0, 0)
                         }}
-                        allowTransparency
                         allowFullScreen
                         allow="geolocation; microphone; camera"
                         src="https://form.jotform.com/230631047148046"

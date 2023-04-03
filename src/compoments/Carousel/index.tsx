@@ -34,6 +34,7 @@ const Text = styled.div`
     position: absolute;
     text-align: center;
     bottom: 75px;
+    padding: 0 20px;
 `;
 
 export default function CustomizeCarousel() {

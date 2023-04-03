@@ -173,12 +173,13 @@ export default function Programs() {
             <div className='container' >
                 <div className="heading text-center">
                     <h2 style={{ color: '#000' }}>Programs</h2>
+                    <p style={{ color: 'gray' }}>Embark on a journey of self-discovery with our diverse range of meditation courses, catering to different styles such as mindfulness, transcendental, and loving-kindness.</p>
                 </div>
-                <Accordion allowZeroExpanded>
+                <Accordion allowZeroExpanded style={{ border: 0 }}>
                     {items.map((item) => (
                         <AccordionItem key={item.heading}>
                             <AccordionItemHeading>
-                                <AccordionItemButton style={{ display: 'flex', alignItems: 'center' }}>
+                                <AccordionItemButton style={{ display: 'flex', alignItems: 'center', backgroundColor: 'transparent' }}>
                                     <Header>{item.heading}</Header>
                                 </AccordionItemButton>
                             </AccordionItemHeading>

@@ -437,15 +437,45 @@ footer input.form-control {
 
 /* Copyright */
 .copyright {
-  color: #000;
-  background: #FFDF00;
+  color: #fff;
+  background: #0b3d91;
   padding: 20px 0;
 }
 
 .copyright a {
-  color: #000;
+  color: #fff;
 }
 
 .copyright a:hover {
   color: #1E4D02 !important;
+}
+
+/* Header 
+----------------------------------------------*/
+#section-top {
+  /* background: #4E4E4E; */
+}
+
+#section-top ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+
+#section-top ul li {
+  display: inline-block;
+}
+
+#section-top ul li a {
+  border-radius: 2px;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  width: 35px;
+  text-align: center;
+}
+
+#section-top .region-top-first {
+  float: right;
 }

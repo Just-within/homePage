@@ -12,7 +12,7 @@ export default function Managerment() {
             <div className="container">
                 <div className="heading text-center">
                     <h2>Contacts</h2>
-                    <p>Members of our group.</p>
+                    <p>Join our community of experts and enthusiasts from all walks of life, bringing together diverse perspectives and skills for a dynamic learning experience.</p>
                 </div>
                 <div className="team-content">
                     <div className="row">

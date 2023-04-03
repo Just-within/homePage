@@ -33,8 +33,14 @@ const Text = styled.div`
     width: 100vw;
     position: absolute;
     text-align: center;
-    bottom: 75px;
+    bottom: 8vw;
     padding: 0 20px;
+    @media screen and (min-width: 1441px) {
+        bottom: 20vw;
+    }
+    @media screen and (min-width: 769px) and (max-width: 1440px) {
+        bottom: 15vw;
+    }
 `;
 
 export default function CustomizeCarousel() {
@@ -76,7 +82,7 @@ export default function CustomizeCarousel() {
                 <ItemContainer>
                     <div>
                         <StyledImg src="img/banner-bg8.jpg" alt="" />
-                        <Text>Journey within to realize everything you ever wanted is just within.</Text>
+                        <Text style={{ color: '#000' }}>Journey within to realize everything you ever wanted is just within.</Text>
                     </div>
                 </ItemContainer>
             </div>

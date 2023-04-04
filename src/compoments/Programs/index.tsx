@@ -66,42 +66,6 @@ const items = [{
     ),
 },
 {
-    heading: 'Topic Discussions',
-    content: (
-        <Content>
-            This program offers a series of topic discussions focused on themes related to Chan practice such as the nature of mind, the heart, and the integration of practice into daily life. These discussions are facilitated by experienced teachers and are open to all levels of practitioners.
-        </Content>
-    ),
-    extendContent: (
-        <ScrollingContent>
-            The Chan Meditation program offers a series of engaging and thought-provoking topic discussions that are focused on key themes related to the practice of Chan meditation. These discussions are facilitated by experienced teachers who offer unique insights and perspectives on the topics at hand, providing participants with a deeper understanding of the principles and techniques of Chan practice.<br />
-            <br />
-            The topics covered in these discussions are diverse and cover a broad range of themes related to meditation and mindfulness. Some of the key themes include the nature of the mind, emotions, the power of thoughts, the heart, the purpose of life, and the role of religions in our lives. These discussions offer a unique opportunity for participants to explore these topics in depth and gain a deeper understanding of their own inner workings and the world around them.<br />
-            <br />
-            The program also places a strong emphasis on the integration of meditation practice into daily life, offering practical guidance and advice on how to bring mindfulness and meditation into everyday activities. The topics related to the integration of practice in daily life include self-reflection, purity, karma, peace, and gratitude. By learning to cultivate these qualities, participants will be better equipped to lead a more mindful and compassionate life, both on and off the meditation cushion.<br />
-            <br />
-            The program is open to practitioners of all levels, from beginners to advanced practitioners. Participants will have the opportunity to engage in meaningful discussions, ask questions, and connect with other like-minded individuals who share their passion for meditation and personal growth. Overall, this program offers a unique and enriching experience that will deepen your understanding of Chan practice and help you to live a more fulfilling and meaningful life.<br />
-        </ScrollingContent>
-    ),
-},
-{
-    heading: "Study of Chan Master's Teaching",
-    content: (
-        <Content>
-            This program provides an opportunity for participants to explore the rich literature of Chan Teachings. The program is led by experienced teachers and includes group discussions and guided meditations. This will be a book based inquiry sessions. Through thoughtful inquiry and reflection, they will gain a deeper understanding of the principles and practices of Chan and learn how to apply these teachings to their daily lives.
-        </Content>
-    ),
-    extendContent: (
-        <ScrollingContent>
-            The Study of Chan Master's Teaching program is a focused and contemplative exploration of Chan Teachings. Through guided discussions, group study sessions, and individual reflection, participants will gain a deeper understanding of the Chan and their relevance to modern life.<br />
-            <br />
-            Led by experienced teachers, this program includes group discussions and book-based inquiry sessions, as well as guided meditations that allow participants to deepen their understanding of the teachings and integrate them into their daily lives.<br />
-            <br />
-            This program is suitable for both experienced practitioners and those new to the study of Chan. It offers a supportive and engaging environment for participants to explore the teachings of prominent Chan masters, connect with other like-minded individuals, and deepen their understanding of this ancient and profound tradition.<br />
-        </ScrollingContent>
-    ),
-},
-{
     heading: '8 Week Session',
     content: (
         <Content>This program is an fast-paced, in-depth exploration of Chan meditation practice over an 8-week period. Participants will receive guided meditation instruction.</Content>
@@ -125,6 +89,23 @@ const items = [{
     ),
 },
 {
+    heading: "Study of Chan Master's Teaching",
+    content: (
+        <Content>
+            This program provides an opportunity for participants to explore the rich literature of Chan Teachings. The program is led by experienced teachers and includes group discussions and guided meditations. This will be a book based inquiry sessions. Through thoughtful inquiry and reflection, they will gain a deeper understanding of the principles and practices of Chan and learn how to apply these teachings to their daily lives.
+        </Content>
+    ),
+    extendContent: (
+        <ScrollingContent>
+            The Study of Chan Master's Teaching program is a focused and contemplative exploration of Chan Teachings. Through guided discussions, group study sessions, and individual reflection, participants will gain a deeper understanding of the Chan and their relevance to modern life.<br />
+            <br />
+            Led by experienced teachers, this program includes group discussions and book-based inquiry sessions, as well as guided meditations that allow participants to deepen their understanding of the teachings and integrate them into their daily lives.<br />
+            <br />
+            This program is suitable for both experienced practitioners and those new to the study of Chan. It offers a supportive and engaging environment for participants to explore the teachings of prominent Chan masters, connect with other like-minded individuals, and deepen their understanding of this ancient and profound tradition.<br />
+        </ScrollingContent>
+    ),
+},
+{
     heading: 'History of Chan Lineage',
     content: (
         <Content>
@@ -134,6 +115,25 @@ const items = [{
     extendContent: (
         <ScrollingContent>
             This program provides a thorough exploration of the historical and cultural context surrounding Chan , offering participants a comprehensive overview of its origins, prominent figures and lineages, and the evolution of Chan practice over time. Participants will also learn about the challenges and obstacles that the tradition has faced and how it has adapted and persevered in the face of adversity. This program is designed to provide participants with a deeper understanding of the rich history and cultural significance of Chan and help bring reflection to your own practice.
+        </ScrollingContent>
+    ),
+},
+{
+    heading: 'Topic Discussions',
+    content: (
+        <Content>
+            This program offers a series of topic discussions focused on themes related to Chan practice such as the nature of mind, the heart, and the integration of practice into daily life. These discussions are facilitated by experienced teachers and are open to all levels of practitioners.
+        </Content>
+    ),
+    extendContent: (
+        <ScrollingContent>
+            The Chan Meditation program offers a series of engaging and thought-provoking topic discussions that are focused on key themes related to the practice of Chan meditation. These discussions are facilitated by experienced teachers who offer unique insights and perspectives on the topics at hand, providing participants with a deeper understanding of the principles and techniques of Chan practice.<br />
+            <br />
+            The topics covered in these discussions are diverse and cover a broad range of themes related to meditation and mindfulness. Some of the key themes include the nature of the mind, emotions, the power of thoughts, the heart, the purpose of life, and the role of religions in our lives. These discussions offer a unique opportunity for participants to explore these topics in depth and gain a deeper understanding of their own inner workings and the world around them.<br />
+            <br />
+            The program also places a strong emphasis on the integration of meditation practice into daily life, offering practical guidance and advice on how to bring mindfulness and meditation into everyday activities. The topics related to the integration of practice in daily life include self-reflection, purity, karma, peace, and gratitude. By learning to cultivate these qualities, participants will be better equipped to lead a more mindful and compassionate life, both on and off the meditation cushion.<br />
+            <br />
+            The program is open to practitioners of all levels, from beginners to advanced practitioners. Participants will have the opportunity to engage in meaningful discussions, ask questions, and connect with other like-minded individuals who share their passion for meditation and personal growth. Overall, this program offers a unique and enriching experience that will deepen your understanding of Chan practice and help you to live a more fulfilling and meaningful life.<br />
         </ScrollingContent>
     ),
 },

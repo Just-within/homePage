@@ -10,7 +10,7 @@ export default function Navbar2() {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a href="/" className="navbar-brand scroll-top logo  animated bounceInLeft">
+                        <a href="/homePage/" className="navbar-brand scroll-top logo  animated bounceInLeft">
                             <b>
                                 Justwithin
                             </b>

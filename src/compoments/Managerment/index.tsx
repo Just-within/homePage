@@ -12,6 +12,9 @@ const StyleImageContainer = styled.div`
         transform: scale(1.1);
         transition: all 0.25s ease;
     }
+    & img {
+        border-radius: 8px;
+    }
 `;
 
 export default function Managerment() {

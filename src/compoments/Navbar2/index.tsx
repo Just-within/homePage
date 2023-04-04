@@ -16,9 +16,9 @@ export default function Navbar2() {
                             </b>
                         </a>
                     </div>
-                    <div id="main-nav" className="collapse navbar-collapse">
+                    <div id="main-nav" className="collapse navbar-collapse in">
                         <ul className="nav navbar-nav" id="mainNav">
-                            <li className="active" id="firstLink"><a href="#home" className="scroll-link">Home</a></li>
+                            <li id="firstLink"><a href="#home" className="scroll-link">Home</a></li>
                             <li><a href="#aboutUs" className="scroll-link">Goal of Group</a></li>
                             <li><a href="#work2" className="scroll-link">Programs</a></li>
                             <li><a href="#team" className="scroll-link">Contracts</a></li>

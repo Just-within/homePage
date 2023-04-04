@@ -479,3 +479,91 @@ footer input.form-control {
 #section-top .region-top-first {
   float: right;
 }
+
+/* Header 
+----------------------------------------------*/
+#section-top {
+  background: #4E4E4E;
+}
+
+#section-top ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+
+#section-top ul li {
+  display: inline-block;
+}
+
+#section-top ul li a {
+  border-radius: 2px;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  width: 35px;
+  text-align: center;
+}
+
+#section-top .region-top-first {
+  float: right;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  z-index: 50;
+  border-radius: 0;
+  top: 35px;
+
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.addBg {
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  background: #000;
+  top: 0px;
+}
+
+.navbar-inverse {
+  background: transparent;
+  border-radius: 6px;
+  visibility: visible;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-inverse {
+    visibility: hidden;
+  }
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar {
+  background: #fff;
+}
+
+#home {
+  background: rgb(34, 34, 34);
+}
+
+.hero-text {
+  color: #676e73;
+  width: 83%;
+  text-align: center;
+  margin: 30% auto 24px auto;
+  font-family: 'Oswald', sans-serif;
+}
+
+.hero-text p {
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 12px 8% 0;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+}

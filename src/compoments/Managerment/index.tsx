@@ -1,9 +1,17 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-import { Button } from '../common.style';
 
 const ButtonContainer = styled.div`
     text-align: center;
+`;
+
+const StyleImageContainer = styled.div`
+    &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.25s ease;
+    }
 `;
 
 export default function Managerment() {
@@ -18,11 +26,11 @@ export default function Managerment() {
                     <div className="row">
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
-                                <div className="member-img">
+                                <StyleImageContainer className="member-img">
                                     <Link href="mailto:sheu.winnie@gmail.com">
                                         <img className="img-responsive" src="img/Maggie.png" alt="" />
                                     </Link>
-                                </div>
+                                </StyleImageContainer>
                                 <ButtonContainer>
                                     <h4>Maggie</h4>
                                     <div>sheu.winnie@gmail.com</div>
@@ -31,11 +39,11 @@ export default function Managerment() {
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
-                                <div className="member-img">
+                                <StyleImageContainer className="member-img">
                                     <Link href="mailto:chanandpega@gmail.com">
                                         <img className="img-responsive" src="img/Pegasus.jpg" alt="" />
                                     </Link>
-                                </div>
+                                </StyleImageContainer>
                                 <ButtonContainer>
                                     <h4>Pegasus Chen</h4>
                                     <div>chanandpega@gmail.com</div>
@@ -44,11 +52,11 @@ export default function Managerment() {
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
-                                <div className="member-img">
+                                <StyleImageContainer className="member-img">
                                     <Link href="mailto:seawang060@gmail.com">
                                         <img className="img-responsive" src="img/Odina.jpg" alt="" />
                                     </Link>
-                                </div>
+                                </StyleImageContainer>
                                 <ButtonContainer>
                                     <h4>Odina Wang</h4>
                                     <div>seawang060@gmail.com</div>
@@ -57,11 +65,11 @@ export default function Managerment() {
                         </div>
                         <div className="col-md-3 col-sm-6 col-xs-12">
                             <div className="team-member pDark">
-                                <div className="member-img">
+                                <StyleImageContainer className="member-img">
                                     <Link href="mailto:meditationwithmaggie@gmail.com">
                                         <img className="img-responsive" src="img/Winnie.png" alt="" />
                                     </Link>
-                                </div>
+                                </StyleImageContainer>
                                 <ButtonContainer>
                                     <h4>Winnie</h4>
                                     <div>meditationwithmaggie@gmail.com</div>

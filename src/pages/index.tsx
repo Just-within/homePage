@@ -8,6 +8,7 @@ import AboutUs from '@/compoments/AboutUs';
 // import Events from '@/compoments/Event';
 // import Fee from '@/compoments/Fee';
 import Programs from '@/compoments/Programs';
+import Programs2 from '@/compoments/Programs2';
 import Managerment from '@/compoments/Managerment';
 import ContractUs from '@/compoments/ContractUs';
 import Footer from '@/compoments/Footer';
@@ -31,7 +32,8 @@ export default function Home() {
         <AboutUs />
         {/* <Events /> */}
         {/* <Fee /> */}
-        <Programs />
+        {/* <Programs /> */}
+        <Programs2 />
         <Managerment />
         <ContractUs />
         <Footer />

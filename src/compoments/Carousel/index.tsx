@@ -35,11 +35,11 @@ const Text = styled.div`
     text-align: center;
     bottom: 8vw;
     padding: 0 20px;
-    @media screen and (min-width: 1441px) {
-        bottom: 20vw;
-    }
     @media screen and (min-width: 769px) and (max-width: 1440px) {
         bottom: 15vw;
+    }
+    @media screen and (min-width: 1441px) {
+        bottom: 18vw;
     }
 `;
 

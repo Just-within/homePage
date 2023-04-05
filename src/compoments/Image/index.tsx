@@ -30,9 +30,9 @@ const clipPaths = {
 }
 
 const bgColorMap = {
-    shape1: '#ff9900',
-    shape2: '#003300',
-    shape3: '#800000',
+    shape1: '#ffcc00',
+    shape2: '#006600',
+    shape3: '#ff0000',
 }
 
 

@@ -66,9 +66,10 @@ export default function Programs() {
                         bottom: 'auto',
                         marginRight: '-50%',
                         transform: 'translate(-50%, -50%)',
+                        borderRadius: 16,
                     },
                 }}
-                contentLabel="Example Modal"
+                contentLabel="Program Modal"
             >
                 <div style={{ position: 'relative' }}>
                     <h2 style={{ color: '#000', maxWidth: '75vw' }}>{modalContent?.heading}</h2>

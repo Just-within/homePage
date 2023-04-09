@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <div id="wrapper">
         <Navbar2 />
-        <section id="top" style={{ backgroundColor: '#333' }}>
+        <section id="top">
           <CustomizeCarousel />
           {/* <WhyBar /> */}
         </section>

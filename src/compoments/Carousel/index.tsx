@@ -14,11 +14,11 @@ const ItemContainer = styled.div`
         font-weight: 500;
     }
     @media screen and (min-width: 383px) and (max-width: 509px) {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
     }
     @media screen and (max-width: 382px) {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
     }
 `;
@@ -35,6 +35,7 @@ const Text = styled.div`
     text-align: center;
     bottom: 8vw;
     padding: 0 20px;
+    color: #fcf9b3;
     @media screen and (min-width: 769px) and (max-width: 1440px) {
         bottom: 15vw;
     }
@@ -82,7 +83,7 @@ export default function CustomizeCarousel() {
                 <ItemContainer>
                     <div>
                         <StyledImg src="img/banner-bg8.jpg" alt="" />
-                        <Text style={{ color: '#000' }}>Journey within to realize everything you ever wanted is just within.</Text>
+                        <Text style={{ color: '#02122e' }}>Journey within to realize everything you ever wanted is just within.</Text>
                     </div>
                 </ItemContainer>
             </div>

@@ -46,14 +46,25 @@ const Container = styled.div`
 const Header = styled.div`
     margin: 30px 0;
     text-align: center;
+    color: #f7ee02;
+    & p {
+        font-size: 16px;
+        color: #fcf9b3;
+        padding: 0 15px;
+    }
 `;
 
 const UpperCase = styled.h4`
     text-transform: uppercase;
+    color: #f7ee02;
 `
 
 const OurQuality = styled.div`
     margin: 30px 0;
+    font-size: 16px;
+    & p {
+        color: #fcf9b3;
+    }
 `;
 
 export default function AboutUs() {
@@ -72,7 +83,7 @@ export default function AboutUs() {
                         <p>We believe that Chan meditation can be a powerful tool for personal growth and spiritual development, and we are committed to making this practice accessible to as many people as possible. Whether you are new to meditation or an experienced practitioner, our program offers a supportive community and expert guidance to help you on your journey of self-discovery and transformation. Join us today and start your journey towards a more peaceful and fulfilling life.</p>
                     </div>
                     <div style={{ top: 28 }} className="col-md-4">
-                        <img style={{ borderRadius: 16 }} src="img/about-img-1.jpg" alt="" width="100%" />
+                        <img style={{ borderRadius: 16, border: '2px solid #fff' }} src="img/about-img-1.jpg" alt="" width="100%" />
                     </div>
                 </OurQuality>
                 {/* <div className="row dataTxt"> */}

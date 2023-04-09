@@ -66,7 +66,6 @@ export default function Programs() {
                         bottom: 'auto',
                         marginRight: '-50%',
                         transform: 'translate(-50%, -50%)',
-                        borderRadius: 16,
                     },
                 }}
                 contentLabel="Program Modal"

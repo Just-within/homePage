@@ -40,7 +40,7 @@ export default function Managerment() {
                             <div className="team-member pDark">
                                 <StyleImageContainer className="member-img">
                                     <Link href="mailto:meditationwithmaggie@gmail.com">
-                                        <img className="img-responsive" src="img/Maggie.png" alt="" />
+                                        <img className="img-responsive" src="img/Maggie.jpg" alt="" />
                                     </Link>
                                 </StyleImageContainer>
                                 <ButtonContainer>

@@ -62,10 +62,10 @@ export default function Programs2() {
                 <div className='col-md-4 col-sm-12' style={{ textAlign: 'center' }}><ImageShape imageUrl={item.imgSrc} shape={shape} /></div>
                 <div className='col-md-8 col-sm-12'>
                     <Header>{item.heading}</Header>
-                    <div>{item.content}{item.extendContent ? <span style={{ color: '#0b3d91', marginLeft: 4, cursor: 'pointer', fontSize: 16 }} onClick={() => setModalContent({
+                    <div>{item.content}{item.extendContent ? <span style={{ color: 'blue', marginLeft: 4, cursor: 'pointer', fontSize: 16 }} onClick={() => setModalContent({
                         heading: item.heading,
                         extendContent: item.extendContent,
-                    })}>read more...</span> : ''}</div>
+                    })}>Read more...</span> : ''}</div>
 
                 </div>
             </ProgramContent>

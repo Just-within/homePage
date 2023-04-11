@@ -49,7 +49,7 @@ export default function Programs() {
                                 {item.content} {item.extendContent ? <span style={{ color: 'blue', marginLeft: 24 }} onClick={() => setModalContent({
                                     heading: item.heading,
                                     extendContent: item.extendContent,
-                                })}>read more...</span> : ''}
+                                })}>Read more...</span> : ''}
                             </AccordionItemPanel>
                         </AccordionItem>
                     ))}

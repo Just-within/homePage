@@ -2,16 +2,16 @@ import Link from 'next/link';
 import styled from 'styled-components';
 
 const HeaderContainer = styled.div`
-    color: #f7ee02;
+    color: #fff;
     & p {
         font-size: 16px;
-        color: #fcf9b3;
+        color: #fff;
     }
 `;
 
 const ButtonContainer = styled.div`
     text-align: center;
-    color: #fcf9b3;
+    color: #fff;
 `;
 
 const StyleImageContainer = styled.div`

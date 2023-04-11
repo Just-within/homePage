@@ -36,6 +36,7 @@ const Text = styled.div`
     bottom: 8vw;
     padding: 0 20px;
     color: #fcf9b3;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
     @media screen and (min-width: 769px) and (max-width: 1440px) {
         bottom: 15vw;
     }

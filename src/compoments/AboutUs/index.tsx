@@ -46,10 +46,10 @@ const Container = styled.div`
 const Header = styled.div`
     margin: 30px 0;
     text-align: center;
-    color: #f7ee02;
+    color: #fff;
     & p {
         font-size: 16px;
-        color: #fcf9b3;
+        color: #fff;
         padding: 0 15px;
     }
 `;

@@ -84,7 +84,7 @@ export default function CustomizeCarousel() {
                 <ItemContainer>
                     <div>
                         <StyledImg src="img/banner-bg8.jpg" alt="" />
-                        <Text style={{ color: '#02122e' }}>Journey within to realize everything you ever wanted is just within.</Text>
+                        <Text style={{ color: '#800000' }}>Journey within to realize everything you ever wanted is just within.</Text>
                     </div>
                 </ItemContainer>
             </div>

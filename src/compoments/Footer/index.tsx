@@ -61,7 +61,7 @@ export default function Footer() {
             <section className="copyright">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 text-center" style={{ color: '#fcf9b3' }}>Discover your true self within at <span style={{ fontWeight: 900 }}>JustWithin</span> </div>
+                        <div className="col-sm-12 text-center" style={{ color: '#800000' }}>Discover your true self within at <span style={{ fontWeight: 900 }}>JustWithin</span> </div>
                     </div>
                 </div>
             </section>

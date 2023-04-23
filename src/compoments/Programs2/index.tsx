@@ -5,15 +5,15 @@ import ImageShape, { ImageShapeEnum } from '../Image';
 import { programItems } from '@/constant';
 
 const ProgramContainer = styled.section`
-    background-color: #eee;
+    background-color: #F5DEB3;
 `;
 
 const Title = styled.h2`
-    color: #0b3d91;
+    color: #800000;
 `;
 
 const SubTitle = styled.div`
-    color: #0045bf;
+    color: #8B4513;
     display: flex; justify-content: center;
     margin: 15px 0 30px 0;
     font-size: 16px;
@@ -24,12 +24,12 @@ const SubTitle = styled.div`
 
 const ProgramContent = styled.div`
     padding: 30px 0;
-    border-top: 1px dashed #c2c2d6;
-    color: #0045bf;
+    border-top: 1px dashed #CD853F;
+    color: #8B4513;
 `;
 
 const Header = styled.h4`
-    color: #0b3d91;
+    color: #800000;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 15px;
@@ -62,7 +62,7 @@ export default function Programs2() {
                 <div className='col-md-4 col-sm-12' style={{ textAlign: 'center' }}><ImageShape imageUrl={item.imgSrc} shape={shape} /></div>
                 <div className='col-md-8 col-sm-12'>
                     <Header>{item.heading}</Header>
-                    <div>{item.content}{item.extendContent ? <span style={{ color: 'blue', marginLeft: 4, cursor: 'pointer', fontSize: 16 }} onClick={() => setModalContent({
+                    <div>{item.content}{item.extendContent ? <span style={{ color: '#800000', marginLeft: 4, cursor: 'pointer', fontSize: 16 }} onClick={() => setModalContent({
                         heading: item.heading,
                         extendContent: item.extendContent,
                     })}>Read more...</span> : ''}</div>
@@ -99,15 +99,16 @@ export default function Programs2() {
                         borderRadius: 16,
                         border: 0,
                         paddingBottom: 35,
+                        backgroundColor: '#FFF8DC',
                     },
                 }}
                 contentLabel="Program Modal"
             >
                 <div style={{ position: 'relative' }}>
-                    <div style={{ color: '#0b3d91', maxWidth: '75vw', fontSize: 24, fontWeight: 500, marginBottom: 10 }}>{modalContent?.heading}</div>
+                    <div style={{ color: '#800000', maxWidth: '75vw', fontSize: 24, fontWeight: 500, marginBottom: 10 }}>{modalContent?.heading}</div>
                     <div onClick={() => setModalContent(undefined)} style={{ position: 'absolute', right: 8, top: 8, width: 20, height: 20 }}>{CloseIconSvg}</div>
                 </div>
-                <div style={{ color: '#0045bf', fontSize: 16 }}>{modalContent?.extendContent}</div>
+                <div style={{ color: '#8B4513', fontSize: 16 }}>{modalContent?.extendContent}</div>
             </Modal>
         </ProgramContainer>
     );

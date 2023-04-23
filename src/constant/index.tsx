@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Content = styled.span`
     font-size: 16px;
     padding-left: 24px;
-    color: #0045bf;
+    color: #8B4513;
 `;
 
 const ScrollingContent = styled.div`

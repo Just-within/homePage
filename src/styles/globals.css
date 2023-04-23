@@ -77,7 +77,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #0b3d91;
+  background: #8B4513;
+  /* background: #0b3d91; */
   /* background: #02122e; */
   /* background: linear-gradient(to bottom,
       transparent,
@@ -440,7 +441,7 @@ footer input.form-control {
 /* Copyright */
 .copyright {
   color: #fff;
-  background: #02122e;
+  background: #F5DEB3;
   padding: 20px 0;
 }
 

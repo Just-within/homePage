@@ -4,6 +4,7 @@ const Content = styled.span`
     font-size: 16px;
     padding-left: 24px;
     color: #8B4513;
+    text-shadow: 1.5px 1.5px 1px rgba(40, 25, 21, 0.1);
 `;
 
 const ScrollingContent = styled.div`

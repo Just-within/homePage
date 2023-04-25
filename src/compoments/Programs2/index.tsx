@@ -5,11 +5,11 @@ import ImageShape, { ImageShapeEnum } from '../Image';
 import { programItems } from '@/constant';
 
 const ProgramContainer = styled.section`
-    background-color: #F5DEB3;
+    background-color: #E2E9DD;
 `;
 
 const Title = styled.h2`
-    color: #800000;
+    color: #281915;
 `;
 
 const SubTitle = styled.div`
@@ -29,10 +29,11 @@ const ProgramContent = styled.div`
 `;
 
 const Header = styled.h4`
-    color: #800000;
+    color: #281915;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 15px;
+    text-shadow: 1.5px 1.5px 1px rgba(40, 25, 21, 0.1);
 `;
 
 
@@ -62,7 +63,7 @@ export default function Programs2() {
                 <div className='col-md-4 col-sm-12' style={{ textAlign: 'center' }}><ImageShape imageUrl={item.imgSrc} shape={shape} /></div>
                 <div className='col-md-8 col-sm-12'>
                     <Header>{item.heading}</Header>
-                    <div>{item.content}{item.extendContent ? <span style={{ color: '#800000', marginLeft: 4, cursor: 'pointer', fontSize: 16 }} onClick={() => setModalContent({
+                    <div>{item.content}{item.extendContent ? <span style={{ color: '#281915', marginLeft: 4, cursor: 'pointer', fontSize: 16 }} onClick={() => setModalContent({
                         heading: item.heading,
                         extendContent: item.extendContent,
                     })}>Read more...</span> : ''}</div>
@@ -99,13 +100,13 @@ export default function Programs2() {
                         borderRadius: 16,
                         border: 0,
                         paddingBottom: 35,
-                        backgroundColor: '#FFF8DC',
+                        backgroundColor: '#E2E9DD',
                     },
                 }}
                 contentLabel="Program Modal"
             >
                 <div style={{ position: 'relative' }}>
-                    <div style={{ color: '#800000', maxWidth: '75vw', fontSize: 24, fontWeight: 500, marginBottom: 10 }}>{modalContent?.heading}</div>
+                    <div style={{ color: '#281915', maxWidth: '75vw', fontSize: 24, fontWeight: 500, marginBottom: 10 }}>{modalContent?.heading}</div>
                     <div onClick={() => setModalContent(undefined)} style={{ position: 'absolute', right: 8, top: 8, width: 20, height: 20 }}>{CloseIconSvg}</div>
                 </div>
                 <div style={{ color: '#8B4513', fontSize: 16 }}>{modalContent?.extendContent}</div>

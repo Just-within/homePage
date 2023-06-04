@@ -1,8 +1,9 @@
 import React, { ReactNode, useState } from 'react';
 import styled from 'styled-components';
-import Modal from 'react-modal';
+// import Modal from 'react-modal';
 import ImageShape, { ImageShapeEnum } from '../Image';
 import { programItems } from '@/constant';
+import CustomizeModal from '../Modal';
 
 const ProgramContainer = styled.section`
     background-color: #E2E9DD;
@@ -36,8 +37,6 @@ const Header = styled.h4`
     text-shadow: 1.5px 1.5px 1px rgba(40, 25, 21, 0.1);
 `;
 
-
-
 const CloseIconSvg = (
     <svg
         viewBox="0 0 12 12"
@@ -55,7 +54,10 @@ const CloseIconSvg = (
 );
 
 export default function Programs2() {
-    const [modalContent, setModalContent] = useState<{ heading: string; extendContent: ReactNode } | undefined>(undefined)
+    const [modalContent, setModalContent] = useState<{ heading: string; extendContent: ReactNode } | undefined>(undefined);
+    const handleModalClose = () => {
+        setModalContent(undefined);
+    }
     const renderContent = (item: any, index: number) => {
         const shape = 'shape' + String(index % 3 + 1) as ImageShapeEnum;
         return (
@@ -78,12 +80,18 @@ export default function Programs2() {
                 <div className="heading text-center">
                     <Title>Programs</Title>
                     <SubTitle>
-                        <div>Embark on a journey of self-discovery with our diverse range of meditation courses, catering to different styles such as mindfulness, transcendental, and loving-kindness.</div>
+                        <div>Embark on a journey of self-discovery with our diverse range of meditation courses, complementing your practice of mindfulness, transcendental, and loving-kindness, deepen the practice.</div>
                     </SubTitle>
                 </div>
                 {programItems.map((item, index) => renderContent(item, index))}
             </div>
-            <Modal
+            <CustomizeModal
+                isOpen={Boolean(modalContent)}
+                onClose={handleModalClose}
+                heading={modalContent?.heading}
+                extendContent={modalContent?.extendContent}
+            />
+            {/* <Modal
                 isOpen={Boolean(modalContent)}
                 onRequestClose={() => setModalContent(undefined)}
                 style={{
@@ -110,7 +118,7 @@ export default function Programs2() {
                     <div onClick={() => setModalContent(undefined)} style={{ position: 'absolute', right: 8, top: 8, width: 20, height: 20 }}>{CloseIconSvg}</div>
                 </div>
                 <div style={{ color: '#8B4513', fontSize: 16 }}>{modalContent?.extendContent}</div>
-            </Modal>
+            </Modal> */}
         </ProgramContainer>
     );
 }

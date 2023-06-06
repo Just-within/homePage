@@ -16,16 +16,16 @@ const StyledIframe = styled.iframe`
     height: 1486px;
     border: none;
     @media screen and (min-width: 565px) {
-        height: 1486px;
+        height: 1642px;
     }
     @media screen and (min-width: 510px) and (max-width: 565px) {
-        height: 1508px;
+        height: 1664px;
     }
     @media screen and (min-width: 383px) and (max-width: 509px) {
-        height: 1582px;
+        height: 1771px;
     }
     @media screen and (max-width: 382px) {
-        height: 1604px;
+        height: 1827px;
     }
 `;
 

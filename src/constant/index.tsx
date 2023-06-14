@@ -239,13 +239,13 @@ This 3 week's Session is designed to establish a strong foundation for your spir
     heading: 'HEART IMPRINT CHAN',
     content: (
         <Content>
-            For those who are serious about meditation practice, have witnessed its benefits, and resonate strongly with the practice, we provide
+            For more comprehensive information and personalized assistance, please don't hesitate to contact us. We're here to provide you with detailed insights and support.
         </Content>
     ),
     extendContent: (
         <ScrollingContent>
             <div className='subtitle'>Description</div>
-            For those who are serious about meditation practice, have witnessed its benefits, and resonate strongly with the practice, we provide
+            For more comprehensive information and personalized assistance, please don't hesitate to contact us. We're here to provide you with detailed insights and support.
             <div className='subtitle'>Requirements & Detail</div>
             Prerequisites: after completing the 8-week introduction to Chan session and completing Meditation group leader Training . The teacher will ask participants and give recommendations to join. 
             <div className='subtitle'>Rules</div>

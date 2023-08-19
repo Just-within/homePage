@@ -1,4 +1,3 @@
-// import { Image } from 'antd';
 import { useState } from 'react';
 
 const ImageUrlList = [

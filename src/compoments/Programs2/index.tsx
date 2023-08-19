@@ -1,6 +1,5 @@
 import React, { ReactNode, useState } from 'react';
 import styled from 'styled-components';
-// import Modal from 'react-modal';
 import ImageShape, { ImageShapeEnum } from '../Image';
 import { programItems } from '@/constant';
 import CustomizeModal from '../Modal';
@@ -37,6 +36,13 @@ const Header = styled.h4`
     text-shadow: 1.5px 1.5px 1px rgba(40, 25, 21, 0.1);
 `;
 
+const ReadMore = styled.span`
+    color: #281915;
+    margin-left: 4px;
+    cursor: pointer;
+    font-size: 16px;
+`;
+
 const CloseIconSvg = (
     <svg
         viewBox="0 0 12 12"
@@ -65,11 +71,17 @@ export default function Programs2() {
                 <div className='col-md-4 col-sm-12' style={{ textAlign: 'center' }}><ImageShape imageUrl={item.imgSrc} shape={shape} /></div>
                 <div className='col-md-8 col-sm-12'>
                     <Header>{item.heading}</Header>
-                    <div>{item.content}{item.extendContent ? <span style={{ color: '#281915', marginLeft: 4, cursor: 'pointer', fontSize: 16 }} onClick={() => setModalContent({
-                        heading: item.heading,
-                        extendContent: item.extendContent,
-                    })}>Read more...</span> : ''}</div>
-
+                    <div>
+                        {item.content}
+                        {item.extendContent ? (
+                        <ReadMore onClick={() => setModalContent({
+                            heading: item.heading,
+                            extendContent: item.extendContent,
+                        })}>
+                            Read more...
+                        </ReadMore>
+                        ) : ''}
+                    </div>
                 </div>
             </ProgramContent>
         );
@@ -91,34 +103,6 @@ export default function Programs2() {
                 heading={modalContent?.heading}
                 extendContent={modalContent?.extendContent}
             />
-            {/* <Modal
-                isOpen={Boolean(modalContent)}
-                onRequestClose={() => setModalContent(undefined)}
-                style={{
-                    overlay: {
-                        backgroundColor: 'rgba(0, 0, 0, 0.5)',
-                    },
-                    content: {
-                        top: '50%',
-                        left: '50%',
-                        right: 'auto',
-                        bottom: 'auto',
-                        marginRight: '-50%',
-                        transform: 'translate(-50%, -50%)',
-                        borderRadius: 16,
-                        border: 0,
-                        paddingBottom: 35,
-                        backgroundColor: '#E2E9DD',
-                    },
-                }}
-                contentLabel="Program Modal"
-            >
-                <div style={{ position: 'relative' }}>
-                    <div style={{ color: '#281915', maxWidth: '75vw', fontSize: 24, fontWeight: 500, marginBottom: 10 }}>{modalContent?.heading}</div>
-                    <div onClick={() => setModalContent(undefined)} style={{ position: 'absolute', right: 8, top: 8, width: 20, height: 20 }}>{CloseIconSvg}</div>
-                </div>
-                <div style={{ color: '#8B4513', fontSize: 16 }}>{modalContent?.extendContent}</div>
-            </Modal> */}
         </ProgramContainer>
     );
 }

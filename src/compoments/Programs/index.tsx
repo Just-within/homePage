@@ -9,6 +9,7 @@ import {
     AccordionItemPanel,
 } from 'react-accessible-accordion';
 import { programItems } from '@/constant';
+import CustomizeModal from '../Modal';
 
 const Header = styled.div`
     color: #444;
@@ -29,7 +30,10 @@ const CloseIconSvg = <svg viewBox="0 0 12 12" version="1.1"
 </svg>
 
 export default function Programs() {
-    const [modalContent, setModalContent] = useState<{ heading: string; extendContent: ReactNode } | undefined>(undefined)
+    const [modalContent, setModalContent] = useState<{ heading: string; extendContent: ReactNode } | undefined>(undefined);
+    const handleModalClose = () => {
+        setModalContent(undefined);
+    };
     return (
         <section id="work2" className="page-section page" style={{ backgroundColor: '#eee' }}>
             <div className='container' >
@@ -55,27 +59,12 @@ export default function Programs() {
                     ))}
                 </Accordion>
             </div>
-            <Modal
+            <CustomizeModal
                 isOpen={Boolean(modalContent)}
-                onRequestClose={() => setModalContent(undefined)}
-                style={{
-                    content: {
-                        top: '50%',
-                        left: '50%',
-                        right: 'auto',
-                        bottom: 'auto',
-                        marginRight: '-50%',
-                        transform: 'translate(-50%, -50%)',
-                    },
-                }}
-                contentLabel="Program Modal"
-            >
-                <div style={{ position: 'relative' }}>
-                    <h2 style={{ color: '#000', maxWidth: '75vw' }}>{modalContent?.heading}</h2>
-                    <div onClick={() => setModalContent(undefined)} style={{ position: 'absolute', right: 8, top: 8, width: 20, height: 20 }}>{CloseIconSvg}</div>
-                </div>
-                <div style={{ color: '#000' }}>{modalContent?.extendContent}</div>
-            </Modal>
+                onClose={handleModalClose}
+                heading={modalContent?.heading}
+                extendContent={modalContent?.extendContent}
+            />
         </section>
     );
 }

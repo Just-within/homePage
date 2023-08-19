@@ -77,12 +77,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #281915;
-  /* background: #0b3d91; */
-  /* background: #02122e; */
-  /* background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
+  background: #281915; /* Web background main color */
 }
 
 a {
@@ -455,10 +450,6 @@ footer input.form-control {
 
 /* Header 
 ----------------------------------------------*/
-#section-top {
-  /* background: #4E4E4E; */
-}
-
 #section-top ul {
   margin: 0;
   padding: 0;
